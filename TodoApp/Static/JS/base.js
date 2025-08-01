@@ -137,7 +137,7 @@
             }
 
             try {
-                const response = await fetch('/auth/token', {
+                const response = await fetch('/auth/create_access_token', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'

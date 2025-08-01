@@ -1,6 +1,6 @@
 from datetime import timedelta, datetime, timezone
 from typing import Annotated
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException,Request
 from ..model import Users
 from pydantic import BaseModel
 from passlib.context import CryptContext
@@ -9,6 +9,7 @@ from fastapi.security import OAuth2PasswordRequestForm,OAuth2PasswordBearer
 from ..database import SessionLocal
 from jose import jwt, JWTError
 from starlette import status
+from fastapi.templating import Jinja2Templates
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl='auth/token')
@@ -42,6 +43,19 @@ def get_db():
         db.close()
 
 db_dependency =  Annotated[Session,Depends(get_db)]
+templates = Jinja2Templates(directory='TodoApp/templates')
+
+##Pages##
+@router.get('/login-page')
+def render_login(request:Request):
+    return templates.TemplateResponse("login.html",{"request":request})
+
+@router.get('/register-page')
+def render_register(request:Request):
+    return templates.TemplateResponse("register.html",{"request":request})
+
+
+##End of page##
 
 def authenticate_user(username:str,password:str,db):
     user = db.query(Users).filter(Users.username==username).first()
