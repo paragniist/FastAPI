@@ -1,8 +1,8 @@
 {% include 'layout.html' %}
 
-<div class="container">
-    <div class="card text-center">
-        <div class="card-header">
+<div class="container" >
+    <div class="card text-center shadow-lg p-3 mb-3" >
+        <div class="card-header display-3 text-center text-success" style="color:#4acf6d">
             Your Todo's!
         </div>
         <div class="card-body">
@@ -29,7 +29,7 @@
                     <td>{{todo.title}}</td>
                     <td>
                         <button onclick="window.location.href='edit-todo-page/{{todo.id}}'"
-                                type="button" class="btn btn-info">
+                                type="button" class="btn btn-outline-success">
                             Edit
                         </button>
                     </td>
@@ -40,7 +40,7 @@
                     <td class="strike-through-td">{{todo.title}}</td>
                     <td>
                        <button
-                               class="btn btn-info"
+                               class="btn btn-outline-success"
                                onclick="window.location.href='{{ url_for('edit-todo-page', todo_id=todo.id) }}'"
                                type="button">
                           Edit
@@ -52,7 +52,7 @@
                 {% endfor %}
                 </tbody>
             </table>
-            <a href="add-todo-page" class="btn btn-primary">Add a new todo!</a>
+            <a href="add-todo-page" class="btn btn-outline-success">Add a new todo!</a>
         </div>
     </div>
 </div>

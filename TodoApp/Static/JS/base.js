@@ -98,7 +98,7 @@
                     throw new Error('Authentication token not found');
                 }
 
-                const response = await fetch(`/todos/selecting_todo/${todoId}`, {
+                const response = await fetch(`/todos/deleting_todo/${todoId}`, {
                     method: 'DELETE',
                     headers: {
                         'Authorization': `Bearer ${token}`
@@ -137,7 +137,7 @@
             }
 
             try {
-                const response = await fetch('/auth/create_access_token', {
+                const response = await fetch('/auth/token', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'

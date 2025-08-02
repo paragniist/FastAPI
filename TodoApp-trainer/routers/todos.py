@@ -111,7 +111,7 @@ async def read_todo(user: user_dependency, db: db_dependency, todo_id: int = Pat
     raise HTTPException(status_code=404, detail='Todo not found.')
 
 
-@router.post("/todo", status_code=status.HTTP_201_CREATED)
+@router.post("/create_todo", status_code=status.HTTP_201_CREATED)
 async def create_todo(user: user_dependency, db: db_dependency,
                       todo_request: TodoRequest):
     if user is None:

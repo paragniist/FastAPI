@@ -1,6 +1,6 @@
 
 body {
-  background: #fafafa;
+  background-color:#76db91;
   color: #33333a;
   padding-top: 70px;
 }
@@ -17,10 +17,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: line-through;
 }
 
-/* h1 {
-  color: red;
-} */
-
-
-
+label{
+color:white;}
 
