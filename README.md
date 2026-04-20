@@ -5,12 +5,14 @@ This repository contains a complete learning path for FastAPI, covering everythi
 It is structured in a step-by-step progression to help you build real-world, scalable APIs.
 
 📂 Repository Structure
+
 📁 01. FastAPI (Udemy)
 
 A complete guided course covering FastAPI from scratch to advanced concepts.
 
 
 🚀 Learning Roadmap (Beginner → Advanced)
+
 📁 02. FastAPI Fundamentals (Beginner)
 
 Learn the core building blocks of FastAPI.
@@ -23,6 +25,7 @@ Learn the core building blocks of FastAPI.
 - Working with HTTP & FastAPI
 - Adding Authentication
 - Testing and Deployment
+  
 📁 03. FastAPI Securing, Deploying & Scaling (Intermediate → Advanced)
 
 Take your APIs to production level.
@@ -31,7 +34,9 @@ Take your APIs to production level.
 - Securing FastAPI Applications
 - Deploying FastAPI to Production
 Caching, Load Balancing & Scaling
+
 Logging and Monitoring
+
 📁 04. FastAPI Building Robust APIs (Intermediate)
 
 Focus on writing clean, maintainable, and production-ready APIs.
@@ -40,6 +45,7 @@ Focus on writing clean, maintainable, and production-ready APIs.
 - Building Data Models with Pydantic Validation
 - Exception Handling Strategies
 - Structured Responses & API Documentation
+  
 📁 05. FastAPI Advanced Request Handling & Middleware (Advanced)
 
 Deep dive into FastAPI internals and advanced architecture.
