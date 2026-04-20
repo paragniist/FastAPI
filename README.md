@@ -61,7 +61,7 @@ Deep dive into FastAPI internals and advanced architecture.
     - Understand backend architecture for real-world systems
     - Implement authentication, validation, and error handling
     - Deploy and scale applications in production environments
-    - 
+  
 Master middleware and advanced request handling
 - 🛠️ Tech Stack
 - 🐍 Python
