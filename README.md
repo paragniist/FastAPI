@@ -63,11 +63,14 @@ Deep dive into FastAPI internals and advanced architecture.
     - Deploy and scale applications in production environments
   
 Master middleware and advanced request handling
-- 🛠️ Tech Stack
+🛠️ Tech Stack
+
 - 🐍 Python
 - ⚡ FastAPI
-🧩 Pydantic
-🌐 REST APIs
+- 🧩 Pydantic
+- 🌐 REST APIs
+
+
 🐳 Docker (for deployment)
 ☁️ Cloud Platforms (for scaling)
 📈 Suggested Learning Path
