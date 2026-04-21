@@ -55,7 +55,8 @@ Deep dive into FastAPI internals and advanced architecture.
 - Advanced Request Processing with Dependencies
 - Pre & Post Processing (Hooks & Overrides)
 - Integrating Third-party Middleware
-- 
+
+  
 🎯 Learning Goals
     - Build high-performance APIs using FastAPI
     - Understand backend architecture for real-world systems
