@@ -63,6 +63,7 @@ Deep dive into FastAPI internals and advanced architecture.
     - Deploy and scale applications in production environments
   
 Master middleware and advanced request handling
+
 🛠️ Tech Stack
 
 - 🐍 Python
@@ -75,6 +76,7 @@ Master middleware and advanced request handling
 ☁️ Cloud Platforms (for scaling)
 📈 Suggested Learning Path
 Fundamentals → Building APIs → Robust APIs → Security & Deployment → Advanced Middleware
+
 ⭐ Final Note
 
 This repository is designed to take you from beginner to advanced FastAPI developer, focusing on practical implementation and production-ready skills.
