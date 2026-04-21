@@ -1,4 +1,4 @@
-⚡ FastAPI Mastery Repository
+<h1>⚡ FastAPI Mastery Repository</h1>
 
 This repository contains a complete learning path for FastAPI, covering everything from basics → production deployment → advanced middleware architecture.
 
