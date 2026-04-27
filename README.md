@@ -9,7 +9,20 @@ It is structured in a step-by-step progression to help you build real-world, sca
 📁 01. FastAPI (Udemy)
 
 A complete guided course covering FastAPI from scratch to advanced concepts.
-
+- Introduction to FastAPI
+- FastAPI Setup and Installation
+- Project 1- FastAPI Request Method Logic
+- Project 2- Move Fast with FastAPI
+- Project 3- Complete RestFul APIs
+- Setup databases
+- API Request Methods
+- Authentication and Authorization
+- Project 3.5- Alembic Data Migration
+- Project 4- Unit and Integration Testing
+- Project 5- Full Stack Application
+- Git Version Control
+- Deploying FastAPI applications
+  
 
 🚀 Learning Roadmap (Beginner → Advanced)
 
